@@ -33,8 +33,8 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 ### Cloning the repository to your local computer
 
 > Currently (Spring 2018) we do not have authenicated HTTPS access to GitHub. To work around that we can tell Git not to check certificates. To do that enter the following command:
-```bash
-git
+>```bash
+git config --global http.sslVerify false
 ```
 
 1. Before leaving the browser, click on the green Clone or download dropdown menu button.
