@@ -10,6 +10,7 @@ In this assignment you will:
 * Push your game to GitHub to publish it on your website.
 
 [pps]: <https://github.com/Game-Design-and-Programming-Template/PlaygroundProjectStarter>
+[dlu]: <https://douglasurner.github.io>
 
 ## Working on the command line
 
@@ -30,6 +31,11 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 [fork]: <https://guides.github.com/activities/forking/>
 
 ### Cloning the repository to your local computer
+
+> Currently (Spring 2018) we do not have authenicated HTTPS access to GitHub. To work around that we can tell Git not to check certificates. To do that enter the following command:
+```bash
+git
+```
 
 1. Before leaving the browser, click on the green Clone or download dropdown menu button.
 1. You will see a clipboard icon on the right side of the repository URL. Click on it to make a copy of the URL.
