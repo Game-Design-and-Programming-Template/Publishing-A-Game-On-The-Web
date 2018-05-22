@@ -9,10 +9,7 @@ In this assignment you will:
 * Add it to your GitHub Pages website.
 * Push your game to GitHub to publish it on your website.
 
-The end result will look something like this: [DouglasUrner.github.io][dlu]
-
 [pps]: <https://github.com/Game-Design-and-Programming-Template/PlaygroundProjectStarter>
-[dlu]: <https://douglasurner.github.io>
 
 ## Working on the command line
 
