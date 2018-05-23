@@ -81,16 +81,16 @@ Now, select one of the game examples in the PlaygroundProject that you would lik
 
 That should all have been pretty familiar. Now we're going to bulid a web version:
 
-1. Under the Unity File menu choose Build Settings... (File > Build Settings...).
-1. Below the Scenes box click on the Add Open Scenes button.
-1. In the Platform section choose WebGL (the orange icon with a 5 in the design).
-1. Click the Build & Run button.
-1. Select a location and name for the game build.
+1. Under the Unity File menu choose **Build Settings...** (File > Build Settings...).
+1. Below the Scenes box click on the **Add Open Scenes** button.
+1. In the **Platform** section choose WebGL (the orange icon with a 5 in the design).
+1. Click the **Build & Run** button in the bottom right corner.
+1. In the resulting dialog, select a location and name for the game build.
 1. Wait, and wait.
 
-<img src=""
+  <img src="images/Build-Settings-Configured.jpg" width="85%">
 
-Once the game has, finally, built it will open in a browser. You may see some messages about allowing network connections. It is OK to allow them.
+Once the game has, finally, built it will open in a browser. As it starts up you may see some messages about allowing network connections. It is OK to allow them.
 
 1. Finally check what has changed:
 
