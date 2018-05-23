@@ -12,6 +12,10 @@ In this assignment you will:
 [pps]: <https://github.com/Game-Design-and-Programming-Template/PlaygroundProjectStarter>
 [dlu]: <https://douglasurner.github.io>
 
+## Before starting
+
+Make sure that you have completed setting up your GitHub account and have **verified your e-mail address**. You will not be able to complete this assignment until you have a verified e-mail address.
+
 ## Working on the command line
 
 Git Bash is a Windows version of the Unix shell (command interperter) Bash – it is very similar to the Windows command prompt, the biggest difference that you are likely to notice is that the path seperator is the forward slash (/) instead of the backslash (\\).
