@@ -68,10 +68,9 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
     remote: Total 760 (delta 375), reused 757 (delta 375), pack-reused 0
     Receiving objects: 100% (760/760), 5.49 MiB | 568.00 KiB/s, done.
     Resolving deltas: 100% (375/375), done.
-    Encountered 201 file(s) that should have been pointers, but weren\'t:
-	  Assets/Documentation/Cheatsheet Images/1 - Movement.jpg
-	  Assets/Documentation/Cheatsheet Images/2 - Movement2.jpg
-	  Assets/Documentation/Cheatsheet Images/3 - Gameplay.jpg
+	  Downloading Assets/Documentation/Cheatsheet Images/1 - Movement.jpg
+	  Downloading Assets/Documentation/Cheatsheet Images/2 - Movement2.jpg
+	  Downloading Assets/Documentation/Cheatsheet Images/3 - Gameplay.jpg
       .
       .
       .
@@ -147,8 +146,6 @@ After making the clone:
      warning: LF will be replaced by CRLF in prototypes/Lander/TemplateData/UnityProgress.js.
      The file will have its original line endings in your working directory.
      ```
-
-
 
 ### 5: Publishing the updated site – and your game
 
