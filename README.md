@@ -37,7 +37,7 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
   git config --global http.sslVerify false
 ```
 
-1. Before leaving the browser, click on the green Clone or download dropdown menu button.
+1. Before leaving the browser, click on the green Clone or download dropdown menu button. <img src="images/Clone-or-download.jpg" align="right" width="40%">
 1. You will see a clipboard icon on the right side of the repository URL. Click on it to make a copy of the URL.
 1. Then, on your computer, **find the `Git Bash` command and launch it.**
 1. Then, **c**hange **d**irectories to your class folder by typing:
@@ -52,7 +52,7 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
     ```
 
     The clone may take a minute or so to run, you should see output like this:
-    
+
     ```bash
     Cloning into 'PlaygroundProjectStarter'...
     remote: Counting objects: 760, done.
@@ -122,13 +122,13 @@ After making the clone:
     nothing added to commit but untracked files present (use "git add" to track)
     ```
  1. Add the new files to Git:
- 
+
      ```bash
      git add <folder holding your game build>
      ```
-     
+
      You will probably see messages like this:
-     
+
      ```bash
      warning: LF will be replaced by CRLF in prototypes/Lander/Build/Build.json.
      The file will have its original line endings in your working directory.
@@ -138,7 +138,7 @@ After making the clone:
      The file will have its original line endings in your working directory.
      ```
 
-    
+
 
 ### Publishing the updated site – and your game
 
