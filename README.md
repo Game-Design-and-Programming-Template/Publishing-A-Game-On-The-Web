@@ -37,15 +37,16 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
   git config --global http.sslVerify false
 ```
 
-1. Before leaving the browser, click on the green Clone or download dropdown menu button. <img src="images/Clone-or-download.jpg" align="right" width="40%">
-1. You will see a clipboard icon on the right side of the repository URL. Click on it to make a copy of the URL.
+1. Before leaving the browser: <img src="images/Clone-or-download.jpg" align="right" width="40%">
+  - **Click** on the green **Clone or download** dropdown menu button.
+  - Look for the **clipboard icon** on the right side of the repository URL, **click** on it to copy of the URL.
 1. Then, on your computer, **find the `Git Bash` command and launch it.**
 1. Then, **c**hange **d**irectories to your class folder by typing:
 
     ```bash
     cd /u/<the name of your game design folder>
     ```
-1. Finally, **clone the [PlaygroundProjectStarter][pps] repository:**
+1. Finally, **clone the [PlaygroundProjectStarter][pps] repository.** You can save yourself some typing by pasting the repository URL that you copied in step three.
 
     ```bash
     git clone https://github.com/Game-Design-and-Programming-Template/PlaygroundProjectStarter.git
@@ -54,13 +55,13 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
     The clone may take a minute or so to run, you should see output like this:
 
     ```bash
-    Cloning into 'PlaygroundProjectStarter'...
+    Cloning into \'PlaygroundProjectStarter\'...
     remote: Counting objects: 760, done.
     remote: Compressing objects: 100% (383/383), done.
     remote: Total 760 (delta 375), reused 757 (delta 375), pack-reused 0
     Receiving objects: 100% (760/760), 5.49 MiB | 568.00 KiB/s, done.
     Resolving deltas: 100% (375/375), done.
-    Encountered 201 file(s) that should have been pointers, but weren't:
+    Encountered 201 file(s) that should have been pointers, but weren\'t:
 	  Assets/Documentation/Cheatsheet Images/1 - Movement.jpg
 	  Assets/Documentation/Cheatsheet Images/2 - Movement2.jpg
 	  Assets/Documentation/Cheatsheet Images/3 - Gameplay.jpg
@@ -71,11 +72,11 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 
 ### Configuring Unity to build a game to deploy on the web
 
-Now we are going to select one of the games in the PlaygroundProject and build a version to deploy on the web:
+Now, select one of the game examples in the PlaygroundProject that you would like to build and deploy on the web:
 
 1. Launch Unity.
-1. Open the folder you just cloned.
-1. Let Unity do it's thing, then
+1. In the open dialog, select the folder you just cloned.
+1. Let Unity do it's thing (opening the project for the first time will be slow), then
 1. Select a game to build.
 
 That should all have been pretty familiar. Now we're going to bulid a web version:
@@ -86,6 +87,8 @@ That should all have been pretty familiar. Now we're going to bulid a web versio
 1. Click the Build & Run button.
 1. Select a location and name for the game build.
 1. Wait, and wait.
+
+<img src=""
 
 Once the game has, finally, built it will open in a browser. You may see some messages about allowing network connections. It is OK to allow them.
 
