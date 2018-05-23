@@ -14,7 +14,10 @@ In this assignment you will:
 
 ## Before starting
 
-Make sure that you have completed setting up your GitHub account and have **verified your e-mail address**. You will not be able to complete this assignment until you have a verified e-mail address.
+Make sure that you have:
+
+* Created your GitHub account, and
+* Have **verified your e-mail address**. You will not be able to complete this assignment until you have a verified e-mail address.
 
 ## Working on the command line
 
@@ -24,7 +27,7 @@ Git Bash is a Windows version of the Unix shell (command interperter) Bash – 
 
 We'll work through this togething in class for the first time, but you may want to make notes or come back here to review the steps
 
-### Forking the repository on GitHub
+### 1: Forking the repository on GitHub
 
 On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a fork of the [PlaygroundProjectStarter][pps] code so that you can modify it and keep track of your changes. Here's what to do:
 
@@ -34,7 +37,7 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 
 [fork]: <https://guides.github.com/activities/forking/>
 
-### Cloning the repository to your local computer
+### 2: Cloning the repository to your local computer
 
 > Currently (Spring 2018) we do not have authenicated HTTPS access to GitHub. To work around that we can tell Git not to check certificates. To do that enter the following command:
 ```bash
@@ -74,7 +77,7 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
       .
     ```
 
-### Configuring Unity to build a game to deploy on the web
+### 3: Configuring Unity to build a game to deploy on the web
 
 Now, select one of the game examples in the PlaygroundProject that you would like to build and deploy on the web:
 
@@ -108,7 +111,7 @@ Once the game has, finally, built it will open in a browser. As it starts up you
    git push
    ```
 
-### Adding the game to your GitHub Pages wedsite
+### 4: Adding the game to your GitHub Pages wedsite
 
 Now, some practice. We'll make a clone of your GitHub Pages site and add your game to it. You should be able to make the clone.
 
@@ -147,6 +150,6 @@ After making the clone:
 
 
 
-### Publishing the updated site – and your game
+### 5: Publishing the updated site – and your game
 
 After making the changes, push them to your GitHub Pages repository, then test.
