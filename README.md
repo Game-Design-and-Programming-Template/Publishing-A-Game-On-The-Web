@@ -150,3 +150,7 @@ After making the clone:
 ### 5: Publishing the updated site – and your game
 
 After making the changes, push them to your GitHub Pages repository, then test.
+
+### **6: Complete the assignment by submitting a link to your published game**
+
+After posting and testing the game you selected, submit **link to the game.**
