@@ -42,6 +42,8 @@ On GitHub a _[fork][]_ is a copy of another repository. We'll need to make a for
 > Currently (Spring 2018) we do not have authenicated HTTPS access to GitHub. To work around that we can tell Git not to check certificates. To do that enter the following command:
 ```bash
   git config --global http.sslVerify false
+```bash
+  git config --global credential.helper wincred
 ```
 
 1. Before leaving the browser: <img src="images/Clone-or-download.jpg" align="right" width="40%">
