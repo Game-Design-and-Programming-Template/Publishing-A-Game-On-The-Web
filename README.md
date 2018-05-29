@@ -121,13 +121,13 @@ After making the clone:
 
 1. Move the folder holding the build of your game into the cloned folder (directory) for your site. The contents of the game folder should be similar to this:
 
-```bash
-$ ls -l
-total 12
-drwxr-xr-x 1 urner 1049089   0 May 25 09:58 Build/
--rw-r--r-- 1 urner 1049089 955 May 25 09:58 index.html
-drwxr-xr-x 1 urner 1049089   0 May 25 09:58 TemplateData/
-```
+   ```bash
+   $ ls -l
+   total 12
+   drwxr-xr-x 1 urner 1049089   0 May 25 09:58 Build/
+   -rw-r--r-- 1 urner 1049089 955 May 25 09:58 index.html
+   drwxr-xr-x 1 urner 1049089   0 May 25 09:58 TemplateData/
+   ```
 
 The _Build_ and _TemplateData_ folders hold the bulk of your game, the file _index.html_ is the file that will be loaded by the browser to launch your game.
 
