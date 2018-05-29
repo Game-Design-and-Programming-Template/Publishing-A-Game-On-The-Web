@@ -190,6 +190,12 @@ If all has gone well your game is now on your GitHub Pages site, but it is not e
    ## Games
    * [<game name>](https://<your username>.github.io/<folder holding your game>/index.html)
    ```
+   If I used the Lander game, and wanted to call it Lander, and had put it in a folder called _Test_ my Markdown code would look like this:
+   
+   ```markdown
+   ## Games
+   * [Lander](https://douglasurner.github.io/Test/index.html)
+   ```
 
 1. After making the changes fill in the Commit changes dialog and click on the green Commit changes button, then test.
 
