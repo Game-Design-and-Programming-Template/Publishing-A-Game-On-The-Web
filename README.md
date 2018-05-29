@@ -201,4 +201,4 @@ If all has gone well your game is now on your GitHub Pages site, but it is not e
 
 ### **6: Complete the assignment by submitting a link to your published game**
 
-After posting and testing the game you selected, submit **link to the game.**
+After posting and testing the game you selected, submit **link to your GitHub Pages site.**
