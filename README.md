@@ -119,8 +119,19 @@ Now, some practice. We'll make a clone of your GitHub Pages site and add your ga
 
 After making the clone:
 
-1. Move the folder holding the build of your game into your site.
-1. Check to see what has changed with 'git status`. The result will look something like this:
+1. Move the folder holding the build of your game into the cloned folder (directory) for your site. The contents of the game folder should be similar to this:
+
+```bash
+$ ls -l
+total 12
+drwxr-xr-x 1 urner 1049089   0 May 25 09:58 Build/
+-rw-r--r-- 1 urner 1049089 955 May 25 09:58 index.html
+drwxr-xr-x 1 urner 1049089   0 May 25 09:58 TemplateData/
+```
+
+The _Build_ and _TemplateData_ folders hold the bulk of your game, the file _index.html_ is the file that will be loaded by the browser to launch your game.
+
+1. Now, check to see what has changed with the command 'git status`. The result will look something like this:
 
     ```bash
     On branch master
@@ -149,10 +160,38 @@ After making the clone:
      warning: LF will be replaced by CRLF in prototypes/Lander/TemplateData/UnityProgress.js.
      The file will have its original line endings in your working directory.
      ```
+     
+     The "warning" is actually reassurance, it is telling us that Git knows about the different line ending conventions used by Windows and Unix based systems like Linux and MacOS.
+     
+     If everything looks right, commit the changes and push the new site up to GitHub:
+     
+     ```bash
+     git commit -m "Testing WebGL game build."
+     git push
+     ```
+     
+     The first command, `git commit` tells Git that you are confident in your changes and want to "commit" to them. Note the last part of the command `-m "Testing WebGL game build."` this is the log message explaining your changes. Git ***requires*** a log message. If you do not provide one as an option on the command line, Git will put you in an editor to create one. For now, save yourself some trouble and don't go there. The message _must_ be quoted if it is more than one word long.
+     
+     The second command `git push` sends your changes to GitHub. To ensure that you are really the person doing the push, GitHub will require you to enter your credentials. After a while that gets old. You can configure Git to provide your credentials automatically with this command:
+     
+     ```bash
+     git config --global credential.helper wincred
+     ```
 
-### 5: Publishing the updated site – and your game
+### 5: Linking to your game
 
-After making the changes, push them to your GitHub Pages repository, then test.
+If all has gone well your game is now on your GitHub Pages site, but it is not easily accessible. To get to it you need to know, and enter manually, the path to the game's _index.html_ file. Let's make that simpler by adding a link.
+
+1. Go to your GitHub profile and go into the repository for your GitHub Pages site (`<your username>.github.io`).
+1. Select the _README.md_ file and click on the edit (pencil) button.
+1. Add the following Markdown code to link to your game:
+
+   ```markdown
+   ## Games
+   * [<game name>](https://<your username>.github.io/<folder holding your game>/index.html)
+   ```
+
+1. After making the changes fill in the Commit changes dialog and click on the green Commit changes button, then test.
 
 ### **6: Complete the assignment by submitting a link to your published game**
 
