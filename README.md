@@ -129,7 +129,7 @@ After making the clone:
    drwxr-xr-x 1 urner 1049089   0 May 25 09:58 TemplateData/
    ```
 
-The _Build_ and _TemplateData_ folders hold the bulk of your game, the file _index.html_ is the file that will be loaded by the browser to launch your game.
+   The _Build_ and _TemplateData_ folders hold the bulk of your game, the file _index.html_ is the file that will be loaded by the browser to launch your game.
 
 1. Now, check to see what has changed with the command 'git status`. The result will look something like this:
 
