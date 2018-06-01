@@ -1,9 +1,10 @@
 ## Overview
 
-In this assignment you will:
+To complete this assignment you will:
 
-* Make a fork of the [PlaygroundProjectStarter][pps] repository on GitHub so that you have your own copy of the code.
-* Use Git to _clone_ the repository to your computer.
+* Using Git Bash, _clone_ the repository for your GitHub Pages wedsite to your computer.
+* On GitHub, make a fork of the PlaygroundProjectStarter repository so that you have your own copy of the code.
+* Return to Git Bash and _clone_ the PlaygroundProjectStarter repository to your computer.
 * Configure Unity to build a WebGL version of one of the example games.
 * Build the game.
 * Add it to your GitHub Pages website.
